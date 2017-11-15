@@ -1,2 +1,2 @@
-# ar-data-insertion
-Insert Mock Data into AR project's database
+"Admin Console" for school project
+
