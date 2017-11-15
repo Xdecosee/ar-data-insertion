@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="styles.css">
     <!-- Link MongoDB Stitch SDK file-->
     <script src="https://s3.amazonaws.com/stitch-sdks/js/library/stable/stitch.min.js"></script>
     <script>
@@ -39,7 +39,7 @@
         data = getData(random);
         
         //Insert into Db: Client Id, Action (represented by integer), Current DateTime, Source Ip & Dest Ip of action 
-        db.collection("ARaction").insert({owner_id : client.authedId(), actionType: data[0], dateTime: new Date(), src: data[1], dest: data[2] });
+        db.collection("ARaction").insert({owner_id : client.authedId(), actionType: data[0], dateTime: new Date(), src: data[1], dest: data[2] }).then(console.log("data added!"));
         
         //Display on paragraph
         document.getElementById("insert").innerHTML = data[0];
