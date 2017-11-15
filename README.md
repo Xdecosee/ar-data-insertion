@@ -8,7 +8,7 @@ Click [here](https://projectadmin.glitch.me) to view the application!
 # Background
 My school project aims to research and develop an application to visualize the interactions between computer machines through Augmented Reality(AR) during an Attack and Defense Challenge. During the challenge, each individual will be assigned to a computer and all of them will split into two different teams (Red & Blue). Red Team plays the offense and conduct attacks against the Blue team. On the other hand, the Blue Team members will defend against any incoming attacks. 
 
-I am tasked to develop an application that allow users(spectators/contestants) to see the actions (attack/defense) conducted by each team through AR and 3D modelling. Each computer machine will have a physical AR Marker for machine identification. Users will load the AR application onto their phones and move around the room/lab where the Challenge is held. When an AR marker(barcode marker)is within the phone camera view, the application will check for the machine's identity based on the barcode value of the marker. After identifying the machine, the application will display out Real-Time actions that are conducted by/ targeted towards the machine. 
+I am tasked to develop an application that allow users(spectators/participants) to see the actions (attack/defense) conducted by each team through AR and 3D modelling. Each computer machine will have a physical AR Marker for machine identification. Users will load the AR application onto their phones and move around the room/lab where the Challenge is held. When an AR marker(barcode marker)is within the phone camera view, the application will check for the machine's identity based on the barcode value of the marker. After identifying the machine, the application will display out Real-Time actions that are conducted by/ targeted towards the machine. 
 
 Click [here](https://projectar.glitch.me) to view the AR application! Read on how to use the AR interface over [here](https://github.com/Xdecosee/ar-project). 
 
@@ -19,7 +19,7 @@ The AR application mentioned in _Background_ will require Real-Time data. For my
 
 I came up with a list of integers to represent each type of action. Below is the classification of the actions.
 
-**Note:** I was only given a list of the types of attacks that contestants have performed in the past years of the challenge. Hence for the defending actions, I decided to just call them as defense1, defense2 and defense3.
+**Note:** I was only given a list of the types of attacks that participants have performed in the past years of the challenge. Hence for the defending actions, I decided to just call them as defense1, defense2 and defense3.
 
 | Attack Type    | Int    | 
 | --------|---------|
