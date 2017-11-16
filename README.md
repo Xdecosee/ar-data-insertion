@@ -17,33 +17,9 @@ The AR application mentioned in _Background_ will require Real-Time data. For my
 
 # How It Works
 
-I came up with a list of integers to represent each type of action. Below is the classification of the actions.
-
-**Note:** I was only given a list of the types of attacks that participants have performed in the past years of the challenge. Hence for the defending actions, I decided to just call them as defense1, defense2 and defense3.
-
-| Attack Type    | Int    | 
-| --------|---------|
-| Normal  | 1 |
-| Reconnaissance | 2 |
-| SQL Injection | 3 |
-| Semantic URL Attack | 4 |
-| Command Injection | 5 |
-| Remote Code Execution | 6 |
-| URL Manipulation | 7 |
-| Privilege Escalation | 8 |
-| Directory Traversal Attack | 9 |
-
-<br/>
-
-| Defense Type    | Int    | 
-| --------|---------|
-| defense1 | 10 |
-| defense2 | 11 |
-| defense3 | 12 |
-
+I came up with a list of integers to represent each type of action. [Here](https://github.com/Xdecosee/ar-project#action-types) is the classification of the actions.
 
 Each mock data inserted to the database will contain the action name and ip addresses which represents the source and destination of the action. The AR application mentioned above is only limited to detect only two markers. Hence, the ip addresses used in this application are only "192.168.180.20" (representing Red Team's machine) and "192.168.110.50" (representing Blue Team's machine). 
-
 
 Upon loading _index.html_, `randAction()` will be called every 1500ms to perform a random selection of any integer above and insert it into the database  along with ip addresses that represent the machine that initiates the action and the machine that the action is targeted at.
 
