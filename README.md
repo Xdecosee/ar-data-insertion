@@ -26,5 +26,6 @@ Upon loading _index.html_, `randAction()` will be called every 1500ms to perform
 # Resources
 * [MongoDB Stitch](https://www.mongodb.com/cloud/stitch)
 
-
+# Help
+If you have suggestions or have questions, you may post them under Issues Tab. 
 
