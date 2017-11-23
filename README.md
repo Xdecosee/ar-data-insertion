@@ -3,7 +3,7 @@ This application part of a school project that I am working on. It is used for i
 
 # Demo
 
-Click [here](https://projectadmin.glitch.me) to view the application!
+Click [here](https://projectadmin.glitch.me) or [here](https://rawgit.com/Xdecosee/ar-data-insertion/master/index.html)to view the application!
 
 # Background
 My school project aims to research and develop an application to visualize the interactions between computer machines through Augmented Reality(AR) during an Attack and Defense Challenge. During the challenge, each individual will be assigned to a computer and all of them will split into two different teams (Red & Blue). Red Team plays the offense and conduct attacks against the Blue team. On the other hand, the Blue Team members will defend against any incoming attacks. 
