@@ -1,3 +1,8 @@
+# [Update]
+
+7/9/2018: Mongodb has made changes to their documentation for Mongodb Stitch. Hence, the program may not run as expected. I will make the necessary changes to the code and update again. 
+
+
 # Description
 This application part of a school project that I am working on. It is used for inserting **mock data** into a MongoDB Atlas database that I have. Real time insertion of data through this application will be displayed in the [Augmented Reality application](https://github.com/Xdecosee/ar-project) that I worked on.
 
