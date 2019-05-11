@@ -1,0 +1,1 @@
+This folder is to put some resources required for both ar-data-insertion and ar-project.
